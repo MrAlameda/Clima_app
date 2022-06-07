@@ -59,7 +59,7 @@ const BoxClima=()=>{
           }                  
         )
 
-    const [here, setHere] = useState("Intente con alguna Ciudad")
+    const [here, setHere] = useState("Search any city")
 
     const [cityExist, setCityExist] = useState(false)
 
@@ -225,7 +225,7 @@ const BoxClima=()=>{
                 <button onClick={()=>{
                     console.log("hola")
                     cityGeoLocation(text)
-                }}>Adios</button>
+                }}>Search</button>
             </div>
             </div>
         </section>

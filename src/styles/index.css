@@ -49,6 +49,7 @@
 }
 
 input{
+    min-height: 30px;
     border-radius: 5px;
     text-align: center;
     background-color: #f6f6f6;
